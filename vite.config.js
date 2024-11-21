@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 /* eslint-disable no-template-curly-in-string */
 export default defineConfig(() => ({
   server: {
-    port: 3000,
+    port: 8080,
     proxy: {
       '/api/socket': 'ws://quickstart-image-23321348575.us-central1.run.app',
       '/api': 'https://quickstart-image-23321348575.us-central1.run.app',
