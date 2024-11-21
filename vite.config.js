@@ -8,8 +8,8 @@ export default defineConfig(() => ({
   server: {
     port: 3000,
     proxy: {
-      '/api/socket': 'ws://localhost:8082',
-      '/api': 'http://localhost:8082',
+      '/api/socket': 'ws://quickstart-image-23321348575.us-central1.run.app',
+      '/api': 'https://quickstart-image-23321348575.us-central1.run.app',
     },
   },
   build: {
